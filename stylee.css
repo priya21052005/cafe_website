@@ -1,0 +1,184 @@
+
+    body{
+        background-color: bisque;
+    }
+    section{
+        padding:2rem 7% ;
+    }
+     .home{
+        margin: 30px;
+        min-height: 100vh;
+        display: flex;
+        color: aliceblue;
+        align-items: center;
+        background: url(coffee_bg1.png);
+        background-size:cover;
+        background-position: center;
+    } 
+    .home.content{
+        max-width: 60rem;
+    }
+    .home .content h4{
+        font-size: 4rem;
+        text-transform: uppercase ;
+        color: aliceblue;
+    }
+    .btn{
+        background-color: antiquewhite;
+    }
+    .heading{
+        text-align: center;
+        color: aliceblue;
+        text-transform: uppercase;
+        padding-bottom: 3.5rem;
+        font-size: 4rem;
+    }
+    .heading span{
+        color: aliceblue;
+        text-transform: uppercase;
+    }
+    .about .row{
+        display: flex;
+        align-items: center;
+        background-color:var(--black) ;
+        flex-wrap: wrap ;
+    }
+    .about .row .image{
+        flex:1 1 45rem;
+    }
+    .about .row .image img{
+        width: 100%;
+
+    }
+    .about .row .content{
+        flex:1 1 45rem;
+        padding:2rem;
+    }
+
+    .menu .heading{
+        text-align: center;
+        color: black;
+    }
+
+
+    .menu .menu-name {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a nice font */
+        font-size: 1.5rem; /* Adjust the font size */
+        font-weight: bold; /* Make the text bold */
+        color: #ffffff; /* Choose a pleasant color */
+        margin: 20px 0; /* Add margin for spacing */
+        padding: 10px; /* Add padding for better spacing */
+        background-color: #070707; /* Optional: Add a background color */
+        border-radius: 50px; /* Optional: Add rounded corners */
+    }
+    
+    .menu .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+    
+    .menu .box-container .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 3px solid #f1eaea;
+        text-align: center;
+        border-radius: 8px;
+        background-color: #0c0c0c;
+        color: azure;
+    }
+    
+    .menu .box-container .box img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    .menu .box-container .box h3 {
+        margin-top: 10px;
+    }
+    
+    .menu .box-container .box .price {
+        margin: 10px 0;
+    }
+    .menu h3{
+        text-transform: uppercase;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        justify-content: center;
+        height: max-content;
+    }
+    .heading{
+        color: #1d1b1b;
+           }
+    .contact-form {
+        background-color: #1d1b1b;
+        color: #f1eaea;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        border-radius: 4px;
+    }
+    .btn {
+        background-color: rgb(231, 225, 222);
+    }
+    footer {
+        text-align: center;
+        padding: 2rem;
+        background-color: #181717;
+        margin-top: 2rem;
+        color: #fff6f6;
+      }
+      .py-5 {
+        padding-top: 3rem ;
+        padding-bottom: 3rem ;
+      }
+      .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -0.5);
+        margin-left: calc(var(--bs-gutter-x) * -0.5);
+      }
+      .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+      .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        .col-md-6 {
+          flex: 0 0 auto;
+          width: 50%;
+        }
+        .col-md-3 {
+          flex: 0 0 auto;
+          width: 25%;
+        }
+      }
+      @media (min-width: 992px) {
+        .col-lg-3 {
+          flex: 0 0 auto;
+          width: 25%;
+        }
+        .col-lg-2 {
+          flex: 0 0 auto;
+          width: 16.66666667%;
+        }
+        .offset-lg-1 {
+          margin-left: 8.33333333%;
+        }
+      }
